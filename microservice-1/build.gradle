@@ -1,0 +1,8 @@
+dependencies {
+    testCompile configurations.testdependencies
+
+    compile configurations.spring
+}
+
+apply plugin: 'application'
+mainClassName = 'org.microservices.example.Microservice1Application'
